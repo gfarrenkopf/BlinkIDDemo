@@ -9,6 +9,7 @@
         android:targetSdkVersion="22" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -61,7 +62,7 @@
         <activity
             android:name="com.microblink.blinkid.result.FormActivity"
             android:label="voter_registration_form"
-            android:screenOrientation="sensor" >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.microblink.activity.ScanActivity"

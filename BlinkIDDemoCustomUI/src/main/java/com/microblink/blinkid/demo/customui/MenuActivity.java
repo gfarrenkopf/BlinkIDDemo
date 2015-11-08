@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.microblink.activity.ScanActivity;
 import com.microblink.blinkid.demo.R;
 import com.microblink.blinkid.demo.config.Config;
+import com.microblink.blinkid.result.FormActivity;
 import com.microblink.blinkid.result.ResultActivity;
 import com.microblink.locale.LanguageUtils;
 import com.microblink.recognizers.BaseRecognitionResult;
@@ -60,6 +61,11 @@ public class MenuActivity extends Activity {
         // Intent for MyScanActivity
         final Intent intent = new Intent(this, MyScanActivity.class);
         startActivityForResult(intent, MY_BLINK_ID_REQUEST_CODE);
+    }
+
+    public void register(View view){
+        Intent intent = new Intent(this, FormActivity.class);
+        startActivity(intent);
     }
 
     @Override

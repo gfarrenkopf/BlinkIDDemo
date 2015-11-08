@@ -74,34 +74,34 @@ public final class R {
 		public static final int scan_corner_ur_blink_ocr = 0x7f020055;
 	}
 	public static final class id {
-		public static final int backButton = 0x7f0d0060;
-		public static final int btnAccept = 0x7f0d007e;
-		public static final int btnExit = 0x7f0d0076;
-		public static final int btnFlash = 0x7f0d0078;
-		public static final int btnHelp = 0x7f0d0077;
-		public static final int defaultBackButton = 0x7f0d0065;
-		public static final int defaultStatusTextView = 0x7f0d0063;
-		public static final int defaultTorchButton = 0x7f0d0064;
-		public static final int default_photopay_viewfinder = 0x7f0d0062;
-		public static final int imageView1 = 0x7f0d005d;
-		public static final int imgLL = 0x7f0d008a;
-		public static final int imgLR = 0x7f0d008b;
-		public static final int imgUL = 0x7f0d0088;
-		public static final int imgUR = 0x7f0d0089;
-		public static final int indicator = 0x7f0d007a;
+		public static final int backButton = 0x7f0d0062;
+		public static final int btnAccept = 0x7f0d0080;
+		public static final int btnExit = 0x7f0d0078;
+		public static final int btnFlash = 0x7f0d007a;
+		public static final int btnHelp = 0x7f0d0079;
+		public static final int defaultBackButton = 0x7f0d0067;
+		public static final int defaultStatusTextView = 0x7f0d0065;
+		public static final int defaultTorchButton = 0x7f0d0066;
+		public static final int default_photopay_viewfinder = 0x7f0d0064;
+		public static final int imageView1 = 0x7f0d005f;
+		public static final int imgLL = 0x7f0d008c;
+		public static final int imgLR = 0x7f0d008d;
+		public static final int imgUL = 0x7f0d008a;
+		public static final int imgUR = 0x7f0d008b;
+		public static final int indicator = 0x7f0d007c;
 		public static final int inversePortrait = 0x7f0d0020;
 		public static final int landscapeLeft = 0x7f0d0021;
 		public static final int landscapeRight = 0x7f0d0022;
-		public static final int layResult = 0x7f0d007c;
+		public static final int layResult = 0x7f0d007e;
 		public static final int portrait = 0x7f0d0023;
 		public static final int rec_view = 0x7f0d0051;
-		public static final int scanOcr = 0x7f0d005f;
-		public static final int textView1 = 0x7f0d005e;
-		public static final int torchButton = 0x7f0d0061;
-		public static final int txtMessage = 0x7f0d0079;
-		public static final int txtResult = 0x7f0d007d;
-		public static final int txtTitle = 0x7f0d007f;
-		public static final int viewpager = 0x7f0d007b;
+		public static final int scanOcr = 0x7f0d0061;
+		public static final int textView1 = 0x7f0d0060;
+		public static final int torchButton = 0x7f0d0063;
+		public static final int txtMessage = 0x7f0d007b;
+		public static final int txtResult = 0x7f0d007f;
+		public static final int txtTitle = 0x7f0d0081;
+		public static final int viewpager = 0x7f0d007d;
 	}
 	public static final class layout {
 		public static final int activity_blink_ocr = 0x7f030018;

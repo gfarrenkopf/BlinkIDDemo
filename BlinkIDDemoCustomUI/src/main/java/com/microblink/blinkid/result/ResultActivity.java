@@ -15,7 +15,6 @@ import android.view.View;
 import com.microblink.activity.ScanActivity;
 import com.microblink.blinkid.RegistrationForm;
 import com.microblink.blinkid.demo.R;
-import com.microblink.blinkid.demo.customui.VoterInfo;
 import com.microblink.recognizers.BaseRecognitionResult;
 
 /**
@@ -41,7 +40,8 @@ public class ResultActivity extends FragmentActivity {
         if (id == R.id.btnYesPay) {
 
             Intent intent = new Intent(this, FormActivity.class);
-            RegistrationForm.setData(((ResultFragmentAdapter) adapterViewPager).results);
+            Log.i(RegistrationForm.class.getSimpleName(), Integer.toString((adapterViewPager).getCount()));
+            RegistrationForm.setData(((ResultFragmentAdapter) adapterViewPager).results, adapterViewPager.getCount());
             startActivity(intent);
         } else if (id == R.id.btnNoBack) {
             finish();

@@ -1,6 +1,8 @@
 package com.microblink.blinkid;
+import android.content.Context;
 import android.os.Parcelable;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -10,8 +12,8 @@ public class RegistrationForm {
 
     private String lang = "en";
     private final String partner_id = "26206";
-    private boolean send_confirmation_reminder_emails = false;
-    private String collect_email_address = "no";
+    private boolean send_confirmation_reminder_emails = true;
+    private String collect_email_address = "willem.neal@gmail.com";
     private String source_tracking_id;
     private String partner_tracking_id;
     private boolean short_form;
@@ -19,21 +21,21 @@ public class RegistrationForm {
     private String created_at  = "11-07-2015 21:56:30";
     private String updated_at = "11-07-2015 21:56:30";
     private String date_of_birth;
-    private String id_number;
+    private String id_number = "1234567";
     private boolean first_registration = true;
-    private String home_zip_code;
+    private String home_zip_code="12345";
     private boolean us_citizen = true;
     private boolean has_state_license = true;
     private boolean is_eighteen_or_older = true;
     private String name_title;
-    private String first_name;
+    private String first_name = "john";
     private String middle_name;
-    private String last_name;
+    private String last_name = "Doe";
     private String name_suffix;
-    private String home_address;
+    private String home_address= "Disney Street";
     private String home_unit;
-    private String home_city;
-    private String home_state_id;
+    private String home_city = "funtown";
+    private String home_state_id = "NC";
     private boolean has_mailing_address = false;
     private String mailing_address;
     private String mailing_unit;
@@ -80,52 +82,74 @@ public class RegistrationForm {
     }
 
     private static String[] parseData(String s){
-        String[] res = s.split(":");
-        res[1]=res[1].trim();
 
+        String[] res = s.split(":");
+
+        if (res.length == 1){
+           String[] s2 = new String[2];
+            s2[0] = res[0];
+            s2[1] = "oo";
+            return s2;
+        }
+        Log.i(RegistrationForm.class.getSimpleName(),res[0]+ "-- " + res[1]);
+        res[1]=res[1].trim();
         return res;
     }
 
-    public static  RegistrationForm getRegistrationForm(Parcelable [] data){
+    public static  RegistrationForm getRegistrationForm(Parcelable [] data, int length){
         form = new RegistrationForm();
-        for (int i =0; i < data.length; i ++){
-            String[] datum = parseData(data[i].toString());
-            switch (datum[0]) {
-                case "Address - Jurisdiction Code":
-                    form.setHome_state_id(datum[1]);
-                    break;
-                case "Address - City":
-                    form.setHome_city(datum[1]);
-                    break;
-                case "Address - Postal Code":
-                    form.setHome_zip_code(datum[1].substring(0, 4));
-                    break;
-                case "Date of Birth":
-                    form.setDate_of_birth(datum[1]);
-                    break;
-                case "Customer Family Name":
-                    form.setLast_name(datum[1]);
-                    break;
-                case "Document Discriminator":
-                    form.setId_number(datum[1]);
-                    break;
-                case "Customer First Name":
-                    form.setFirst_name(datum[1]);
-                    break;
-                case "Address - Street 1":
-                    form.setHome_address(datum[1]);
-                    break;
-                default:
-                    break;
+        Log.i(RegistrationForm.class.getSimpleName(),"size   " + Integer.toString(length));
+        String[] datum;
+        int i;
+        try {
 
+
+            for (i = 0; i < 20; i++) {
+                datum = parseData(data[i].toString());
+                Log.i(RegistrationForm.class.getSimpleName(), datum[0] + "-- " + datum[1]);
+                switch (datum[0]) {
+                    case "Address - Jurisdiction Code":
+                        form.setHome_state_id(datum[1]);
+                        break;
+                    case "Address - City":
+                        form.setHome_city(datum[1]);
+                        break;
+                    case "Address - Postal Code":
+                        form.setHome_zip_code(datum[1].substring(0, 4));
+                        break;
+                    case "Date of Birth":
+                        form.setDate_of_birth(datum[1]);
+                        break;
+                    case "Customer Family Name":
+                        form.setLast_name(datum[1]);
+                        break;
+                    case "Document Discriminator":
+                        form.setId_number(datum[1]);
+                        break;
+                    case "Customer First Name":
+                        form.setFirst_name(datum[1]);
+                        break;
+                    case "Address - Street 1":
+                    case "Driver Residents Street Adrress 1":
+                        form.setHome_address(datum[1]);
+                        break;
+                    default:
+                        break;
+
+                }
             }
+            Log.i(RegistrationForm.class.getSimpleName(), "Broke out at i: "+Integer.toString(i));
         }
+        catch (Exception e){
+            Log.i(RegistrationForm.class.getSimpleName(), e.toString());
+        }
+
         return form;
 
     }
 
-    public static void setData(Parcelable[] data) {
-        getRegistrationForm(data);
+    public static void setData(Parcelable[] data, int length) {
+        getRegistrationForm(data,length);
     }
 
 
