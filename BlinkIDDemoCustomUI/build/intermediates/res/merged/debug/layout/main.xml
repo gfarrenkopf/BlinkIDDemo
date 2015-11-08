@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <TableRow
+        android:gravity="center_horizontal"
+        android:paddingBottom="20sp" >
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClickHandler"
+            android:text="Register" >
+        </Button>
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClickHandler"
+            android:text="@string/scanId" >
+        </Button>
+    </TableRow>
+
+</TableLayout><!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/layout/main.xml -->

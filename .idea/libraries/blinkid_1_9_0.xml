@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="blinkid-1.9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BlinkIDDirectApiDemo/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/BlinkIDDirectApiDemo/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

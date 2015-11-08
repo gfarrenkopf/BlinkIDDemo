@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/classes-d163858bff2abd7caa291d20324b7984f111a16c.jar" />
+    </item>
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b781e5adbbac3c46c33d41c23c1c75f3aac5bdfd">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/pre-dexed/debug/classes-2275e2b06d78926fa65cfbd8feed49e6ab8ed483.jar" />
+    </item>
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-af1680c58ed9d821cb387dbdca62cb6135568181.jar" />
+    </item>
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b781e5adbbac3c46c33d41c23c1c75f3aac5bdfd">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/classes-e073ef138f781af654ead277fd77287de04d710d.jar" />
+    </item>
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/pre-dexed/debug/classes-74b31f2898681a68f81352a884e8214d541bdeeb.jar" />
+    </item>
+    <item
+        jar="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-7b83e698dc4685c77f343c236728a1104ccb7957.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__attrs.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_frame">#DDF60C0C</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <color name="default_line_indicator_selected_color">#FFC5182D</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FFC5182D</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FFC5182D</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="formDetect_frame">#DDEEE718</color>
+    <color name="greenlight">#FF5EC102</color>
+    <color name="helpButtonBackgroundDisabled">#22000000</color>
+    <color name="helpButtonBackgroundNormal">#AA000000</color>
+    <color name="helpButtonBackgroundPressed">#AA888888</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="help_background">#ff434343</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="help_background_blink_ocr">#ff434343</color>
+    <color name="max_quality_ocr_color">#FF00FF00</color>
+    <color name="med_quality_ocr_color">#FFFFFF00</color>
+    <color name="min_quality_ocr_color">#FFFF0000</color>
+    <color name="ocr_line_background">#77000000</color>
+    <color name="ocr_line_help_background">#FFBF0000</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="overlay_background">#77000000</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="overlay_background_blink_ocr">#77000000</color>
+    <color name="photopayButtonBackgroundDisabled">#22FFFFFF</color>
+    <color name="photopayButtonBackgroundNormal">#99FFFFFF</color>
+    <color name="photopayButtonBackgroundPressed">#FFFFFFFF</color>
+    <color name="photopayButtonBorder">#FF000000</color>
+    <color name="photopayButtonForeground">#FF000000</color>
+    <color name="recognized_frame">#DD2DEE06</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="result_background">#7750ff00</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="result_background_blink_ocr">#7750ff00</color>
+    <color name="statusBackground">#BB000000</color>
+    <color name="statusForeground">#DDEEEEEE</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="text_gray">#b1b1b1b1</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="text_gray_blink_ocr">#b1b1b1b1</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="text_white">#FFFFFFFF</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <color name="text_white_blink_ocr">#FFFFFFFF</color>
+    <color name="textback">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__colors.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="RecognizerView"><attr format="enum" name="initialOrientation"><enum name="portrait" value="0"/><enum name="landscapeRight" value="1"/><enum name="inversePortrait" value="2"/><enum name="landscapeLeft" value="3"/></attr><attr format="boolean" name="animateRotation"/><attr format="integer" name="animationDuration"/></declare-styleable>
+    <declare-styleable name="RecognizerView_LayoutParams"><attr format="boolean" name="rotatable"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin_blink_ocr">16dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="activity_vertical_margin_blink_ocr">16dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="result_horizontal_margin">32dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="result_horizontal_margin_blink_ocr">32dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="result_vertical_margin">32dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="result_vertical_margin_blink_ocr">32dp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="text_size">20sp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="text_size_blink_ocr">20sp</dimen>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="AlignBarcode">Position the phone over the barcode</string>
+    <string name="AlignBill">Position the phone over the slip</string>
+    <string name="AlignOcrLine">Put OCR line inside the box below.</string>
+    <string name="AutofocusFail">Camera cannot focus. Try scanning under different light.</string>
+    <string name="CameraAtAngle">Please align the OCR line in the box below. OCR line angle is too steep.</string>
+    <string name="CameraTooHigh">Please position the phone closer to the slip</string>
+    <string name="Copied">Text copied to clipboard</string>
+    <string name="Copy">Copy</string>
+    <string name="CustomUIForbidden">License does not permit custom camera activity!</string>
+    <string name="FeatureUnsuportedAndroidVersion">This feature is supported for Android 2.1 and newer</string>
+    <string name="FeatureUnsuportedAutofocus">This feature is not supported on phones without autofocus</string>
+    <string name="FeatureUnsuportedDevice">PhotoPay is not supported because of the technical properties of your device</string>
+    <string name="FullRecognition">Slip recognized</string>
+    <string name="InvalidLicense">Invalid license key! Please check ADB error log for more details.</string>
+    <string name="NoRecognition">Slip is not recognized</string>
+    <string name="NoRecognizers">At least one recognizer must be enabled!</string>
+    <string name="PPCancel">Cancel</string>
+    <string name="PPUse">Use</string>
+    <string name="PartialRecognition">Slip partially recognized</string>
+    <string name="PartialSlipDetected">Some parts of the payslip are not visible</string>
+    <string name="PhotoPayHelp">Help</string>
+    <string name="PhotoPayOcrLineHelpMessage">Place the whole white area inside the camera window above.</string>
+    <string name="Processing">Please, hold your phone still, processing</string>
+    <string name="ResultList">List of scan results</string>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="amount_msg">Position Total Amount in this frame</string>
+    <string name="amount_title">Total Amount</string>
+    <string name="app_name">Blink ID Custom Segment Demo</string>
+    <string name="date_msg">Position date in this frame</string>
+    <string name="date_title">Date</string>
+    <string name="email_msg">Position e-mail in this frame</string>
+    <string name="email_title">E-Mail</string>
+    <string name="help_msg_01">Place mobile phone above element that should be scanned and center it inside scanning frame.</string>
+    <string name="help_msg_02">When scanning is done you can edit data by tapping it.</string>
+    <string name="help_msg_03">Swipe or tap title of element that should be scanned.</string>
+    <string name="iban_msg">Position IBAN in this frame</string>
+    <string name="iban_title">IBAN</string>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <eat-comment/>
+    <string name="loading">Loading…</string>
+    <string name="photopayCameraNotReady">Camera not ready.</string>
+    <string name="photopayErrorInitializing">Failed to initialize native library. Please check ADB error log for more details.</string>
+    <string name="photopayHome">Back</string>
+    <string name="photopayLightOff">Light</string>
+    <string name="photopayLightOn">Light</string>
+    <string name="photopayOK">OK</string>
+    <string name="photopayWarningTitle">Warning</string>
+    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="raw_msg">Position text in this frame</string>
+    <string name="raw_title">Raw text</string>
+    <string name="tax_msg">Position Total Tax Amount in this frame</string>
+    <string name="tax_title">Tax Amount</string>
+    <string name="title_activity_scan">Blink ID</string>
+</resources>

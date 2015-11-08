@@ -1,0 +1,27 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.microblink.blinkid"
+        minSdkVersion 10
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile "com.microblink:blinkid:${rootProject.ext.blinkIdVersion}@aar"
+    compile "com.android.support:support-v4:${rootProject.ext.androidSupportVersion}@aar"
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'org.apache.httpcomponents:httpcomponents-client:4.5.1'
+}
