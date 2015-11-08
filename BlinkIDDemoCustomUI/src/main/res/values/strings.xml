@@ -23,4 +23,11 @@
     <string name="error">Error</string>
     <string name="errorDesc">There has been an error starting the scanner.</string>
 
+    <string-array name="political_parties">
+        <item>Democrat</item>
+        <item>Republican</item>
+        <item>Libertarian</item>
+        <item>Undeclared</item>
+    </string-array>
+
 </resources>

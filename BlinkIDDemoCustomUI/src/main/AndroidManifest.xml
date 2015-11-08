@@ -38,6 +38,11 @@
             android:screenOrientation="sensor"
             android:label="@string/title_activity_my_scan" >
         </activity>
+        <activity
+            android:name="com.microblink.blinkid.result.FormActivity"
+            android:screenOrientation="sensor"
+            android:label="voter_registration_form" >
+        </activity>
     </application>
 
 </manifest>

@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 
 import com.microblink.activity.ScanActivity;
@@ -39,9 +40,9 @@ public class ResultActivity extends FragmentActivity {
         final int id = view.getId();
         if (id == R.id.btnYesPay) {
 
-            // Intent intent = new Intent(this, registration.class);
+            Intent intent = new Intent(this, FormActivity.class);
             RegistrationForm.setData(((ResultFragmentAdapter) adapterViewPager).results);
-            finish();
+            startActivity(intent);
         } else if (id == R.id.btnNoBack) {
             finish();
         }

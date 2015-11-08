@@ -18,7 +18,7 @@
             android:id="@+id/idnum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id_number="" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             android:id="@+id/fname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.first_name}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             android:id="@+id/mname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.middle_name}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:id="@+id/lname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.last_name}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
             android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.home_address}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:id="@+id/address2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.home_unit}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:id="@+id/city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.home_city}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,18 +88,34 @@
             android:id="@+id/state"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{form.home_state_id}" />
+            android:text="" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Party"/>
+            android:text="Zip Code"/>
+
+        <EditText
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Party"/>
 
         <Spinner
-            android:id="@+id/politcal_parties"
+            android:id="@+id/political_parties"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown">
 
         </Spinner>
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick=""/>
     </LinearLayout>
 </layout>

@@ -2,18 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/home/willem/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
-        <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2-e9b5983c05ff4e1d74e08b3a7a33370bcdb573e7.jar" />
-    </item>
-    <item
         jar="/home/willem/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
         <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/gson-2.4-094654415d5d9e1caf94ae3cacb1eaf2724664a8.jar" />
+    </item>
+    <item
+        jar="/home/willem/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-691e9f9fab21502f2b80afe93ca130e64ebeec8a.jar" />
+    </item>
+    <item
+        jar="/home/willem/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2-e9b5983c05ff4e1d74e08b3a7a33370bcdb573e7.jar" />
     </item>
     <item
         jar="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
@@ -28,6 +35,13 @@
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-fd7a80be57aa08bfaa6500f00caaf3ee5c1455c0.jar" />
+    </item>
+    <item
+        jar="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/pre-dexed/debug/classes-6577b8412fcf363dc8ad77d5a741d8f87e72c736.jar" />
     </item>
     <item
         jar="/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/jars/classes.jar"

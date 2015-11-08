@@ -59,6 +59,11 @@
             android:screenOrientation="sensor" >
         </activity>
         <activity
+            android:name="com.microblink.blinkid.result.FormActivity"
+            android:label="voter_registration_form"
+            android:screenOrientation="sensor" >
+        </activity>
+        <activity
             android:name="com.microblink.activity.ScanActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait" >
