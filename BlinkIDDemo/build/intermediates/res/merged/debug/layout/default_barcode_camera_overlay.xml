@@ -43,4 +43,4 @@
         android:textColor="@color/photopayButtonForeground"
         android:textSize="14sp" />
 
-</FrameLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/default_barcode_camera_overlay.xml --><!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemo/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/default_barcode_camera_overlay.xml -->
+</FrameLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/default_barcode_camera_overlay.xml --><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemo/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/default_barcode_camera_overlay.xml -->

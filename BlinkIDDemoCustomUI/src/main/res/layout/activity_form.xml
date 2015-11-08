@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="License ID"/>
+
+        <EditText
+            android:id="@+id/idnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id_number="" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"/>
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.first_name}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Middle Name"/>
+
+        <EditText
+            android:id="@+id/mname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.middle_name}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"/>
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.last_name}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address1"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.home_address}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address2"/>
+
+        <EditText
+            android:id="@+id/address2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.home_unit}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.home_city}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"/>
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{form.home_state_id}" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Party"/>
+
+        <Spinner
+            android:id="@+id/politcal_parties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown">
+
+        </Spinner>
+    </LinearLayout>
+</layout>

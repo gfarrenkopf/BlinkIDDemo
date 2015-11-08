@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false" android:drawable="@drawable/icon_ok_big_blink_ocr" />
     <item android:state_pressed="true" android:drawable="@drawable/icon_ok_big_selected_blink_ocr" />
-</selector><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/drawable/ok_big_blink_ocr.xml --><!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/drawable/ok_big_blink_ocr.xml -->
+</selector><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/drawable/ok_big_blink_ocr.xml --><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/drawable/ok_big_blink_ocr.xml -->

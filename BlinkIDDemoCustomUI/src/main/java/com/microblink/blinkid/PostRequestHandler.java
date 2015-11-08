@@ -3,7 +3,6 @@ package com.microblink.blinkid;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.squareup.okhttp.OkHttpClient;
 
 
 import java.io.BufferedReader;
@@ -15,8 +14,7 @@ import java.net.URL;
 /**
  * Created by willem on 11/7/15.
  */
-public class PostRequestHandler extends AsyncTask<Void, Void,String> implements RequestHandler {
-    private final OkHttpClient client = new OkHttpClient();
+public class PostRequestHandler extends AsyncTask<Void, Void,String> implements RequestHandler{
     private static final String GOOGLE_API_KEY = "AIzaSyAdxCWYyfAvQruy-1L5g7fWka-wUj-hJNk";
     private  String url;
     private  Query query = null;

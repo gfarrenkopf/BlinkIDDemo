@@ -2,11 +2,6 @@ package com.microblink.blinkid;
 
 import android.util.Log;
 
-import com.squareup.okhttp.FormEncodingBuilder;
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.RequestBody;
-import com.squareup.okhttp.Response;
 
 
 import org.apache.http.NameValuePair;
@@ -25,7 +20,6 @@ import java.util.List;
  * Created by willem on 11/7/15.
  */
 public class HttpRequestHandler {
-    private final OkHttpClient client = new OkHttpClient();
     private final String API_KEY = "AIzaSyAdxCWYyfAvQruy-1L5g7fWka-wUj-hJNk";
     private String address = "117 Mallette Street, NC 27516";
     private  String _URL = "https://www.googleapis.com/civicinfo/v2/voterinfo?";

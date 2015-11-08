@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <color name="default_frame">#DDF60C0C</color>
     <color name="formDetect_frame">#DDEEE718</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="green_button_pressed_background">#FF589700</color>
     <color name="green_button_unpressed_background">#FF355B00</color>
     <color name="greendark">#FF669900</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <color name="greenlight">#FF5EC102</color>
     <color name="helpButtonBackgroundDisabled">#22000000</color>
@@ -28,36 +28,36 @@
     <color name="photopayButtonBorder">#FF000000</color>
     <color name="photopayButtonForeground">#FF000000</color>
     <color name="recognized_frame">#DD2DEE06</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="red_button_pressed_background">#FFB70000</color>
     <color name="red_button_unpressed_background">#FF6F0000</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <color name="result_background_blink_ocr">#7750ff00</color>
     <color name="statusBackground">#BB000000</color>
     <color name="statusForeground">#DDEEEEEE</color>
     <color name="text_gray_blink_ocr">#b1b1b1b1</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="text_light">#00FF00</color>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <color name="text_white_blink_ocr">#FFFFFFFF</color>
     <color name="textback">#FF000000</color>
     <color name="transparent">#00000000</color>
     <declare-styleable name="RecognizerView"><attr format="enum" name="initialOrientation"><enum name="portrait" value="0"/><enum name="landscapeRight" value="1"/><enum name="inversePortrait" value="2"/><enum name="landscapeLeft" value="3"/></attr><attr format="boolean" name="animateRotation"/><attr format="integer" name="animationDuration"/></declare-styleable>
     <declare-styleable name="RecognizerView_LayoutParams"><attr format="boolean" name="rotatable"/></declare-styleable>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin_blink_ocr">16dp</dimen>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="activity_vertical_margin_blink_ocr">16dp</dimen>
     <dimen name="result_horizontal_margin_blink_ocr">32dp</dimen>
@@ -65,16 +65,16 @@
     <dimen name="text_size_blink_ocr">20sp</dimen>
     <string name="AlignBarcode">Position the phone over the barcode</string>
     <string name="AlignBill">Position the phone over the slip</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="AlignOcrLine">Put OCR line inside the box below.</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="AutofocusFail">Camera cannot focus. Try scanning under different light.</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="CameraAtAngle">Please align the OCR line in the box below. OCR line angle is too steep.</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="CameraTooHigh">Please position the phone closer to the slip</string>
     <string name="Copied">Text copied to clipboard</string>
@@ -85,25 +85,25 @@
     <string name="FeatureUnsuportedDevice">PhotoPay is not supported because of the technical properties of your device</string>
     <string name="FullRecognition">Slip recognized</string>
     <string name="InvalidLicense">Invalid license key! Please check ADB error log for more details.</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
     <eat-comment/>
     <string name="IsDataCorrect">Is all data correct?</string>
     <string name="Label">Label</string>
     <string name="NoBack">Cancel</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="NoRecognition">Slip is not recognized</string>
     <string name="NoRecognizers">At least one recognizer must be enabled!</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
     <eat-comment/>
     <string name="PPAddress">Address</string>
     <string name="PPBarcodeData">Barcode data</string>
     <string name="PPBarcodeRawData">Barcode raw data</string>
     <string name="PPBarcodeType">Barcode type</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="PPCancel">Cancel</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
     <eat-comment/>
     <string name="PPDateOfBirth">Date of birth</string>
     <string name="PPDateOfExpiry">Date of expiry</string>
@@ -125,7 +125,7 @@
     <string name="PPSecondaryId">Secondary ID</string>
     <string name="PPSex">Sex</string>
     <string name="PPUncertain">Uncertain data</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="PPUse">Use</string>
     <string name="PartialRecognition">Slip partially recognized</string>
@@ -134,11 +134,11 @@
     <string name="PhotoPayOcrLineHelpMessage">Place the whole white area inside the camera window above.</string>
     <string name="Processing">Please, hold your phone still, processing</string>
     <string name="ResultList">List of scan results</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/resultActivityStrings.xml -->
     <eat-comment/>
     <string name="Value">Value</string>
     <string name="YesPay">Confirm data</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">BlinkID Demo CustomUI</string>
@@ -149,27 +149,27 @@
     <string name="loading">Loading…</string>
     <string name="nothingEnabledMsg">Not even one recognizer has been enabled in current settings. PhotoPay cannot continue.</string>
     <string name="nothingEnabledTitle">Invalid settings</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="photopayCameraNotReady">Camera not ready.</string>
     <string name="photopayErrorInitializing">Failed to initialize native library. Please check ADB error log for more details.</string>
     <string name="photopayHome">Back</string>
     <string name="photopayLightOff">Light</string>
     <string name="photopayLightOn">Light</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="photopayOK">OK</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/values/values.xml -->
     <eat-comment/>
     <string name="photopayWarningTitle">Warning</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="scanBarcode">Scan barcode</string>
     <string name="scanId">Scan ID</string>
     <string name="scanOcr">Scan slip</string>
     <string name="title_activity_my_scan">MyScanActivity</string>
     <string name="title_activity_your">YourActivity</string>
-    <!-- From: file:/home/rigo/AndroidStudioProjects/blinkid-android-master/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="FancyGreenButtonBar" parent="android:style/ButtonBar">
         <item name="android:background">@color/green_button_background</item>
