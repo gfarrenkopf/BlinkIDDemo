@@ -10,4 +10,4 @@
         android:textSize="@dimen/text_size"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-</RelativeLayout><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/layout/page_element.xml -->
+</RelativeLayout><!-- From: file:/home/hokeun/Desktop/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/layout/page_element.xml -->

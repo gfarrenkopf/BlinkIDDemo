@@ -38,4 +38,4 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:src="@drawable/scan_corner_lr_blink_ocr"/>
-</RelativeLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/viewfinder_blink_ocr.xml --><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/viewfinder_blink_ocr.xml -->
+</RelativeLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/viewfinder_blink_ocr.xml --><!-- From: file:/home/hokeun/Desktop/BlinkIDDemo/BlinkIDDemoCustomUI/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/viewfinder_blink_ocr.xml -->

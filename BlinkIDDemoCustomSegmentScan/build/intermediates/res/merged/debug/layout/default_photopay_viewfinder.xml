@@ -76,4 +76,4 @@
         android:textColor="@color/photopayButtonForeground"
         android:textSize="14sp" />
 
-</FrameLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/default_photopay_viewfinder.xml --><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/default_photopay_viewfinder.xml -->
+</FrameLayout><!-- From: file:/Users/dodo/Work/Microblink/android-core/android-studio/LibRecognizer/src/blinkid/res/layout/default_photopay_viewfinder.xml --><!-- From: file:/home/hokeun/Desktop/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/build/intermediates/exploded-aar/com.microblink/blinkid/1.9.0/res/layout/default_photopay_viewfinder.xml -->

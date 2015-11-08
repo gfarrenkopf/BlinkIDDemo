@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values-w820dp/dimens.xml -->
+    <!-- From: file:/home/hokeun/Desktop/BlinkIDDemo/BlinkIDDemoCustomSegmentScan/src/main/res/values-w820dp/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
     <dimen name="result_horizontal_margin">128dp</dimen>

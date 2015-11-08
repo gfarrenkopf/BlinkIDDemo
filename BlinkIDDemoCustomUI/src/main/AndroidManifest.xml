@@ -8,11 +8,21 @@
         android:minSdkVersion="10"
         android:targetSdkVersion="21" />
 
+    <permission
+        android:name="com.microblink.blinkid.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
     <uses-feature android:glEsVersion="0x00020000" android:required="false" />
+
+    <uses-permission android:name="com.microblink.blinkid.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:icon="@drawable/icon"
@@ -43,6 +53,12 @@
             android:screenOrientation="sensor"
             android:label="voter_registration_form" >
         </activity>
+        <activity
+            android:name="com.microblink.blinkid.result.MapActivity"
+            android:screenOrientation="sensor"
+            android:label="map" >
+        </activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBaCvW-ECV3y-eHSV6VGTibKjlkI_xxteI"/>
     </application>
 
 </manifest>

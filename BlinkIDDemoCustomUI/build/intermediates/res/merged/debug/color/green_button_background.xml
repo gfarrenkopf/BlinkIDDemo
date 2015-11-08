@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@color/green_button_pressed_background"/>
     <item android:drawable="@color/green_button_unpressed_background"/> <!-- not selected -->
-</selector><!-- From: file:/home/willem/Android/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/color/green_button_background.xml -->
+</selector><!-- From: file:/home/hokeun/Desktop/BlinkIDDemo/BlinkIDDemoCustomUI/src/main/res/color/green_button_background.xml -->
